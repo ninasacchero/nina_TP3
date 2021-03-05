@@ -8,6 +8,8 @@ a {color: inherit;}
 .collections-title {
   margin-bottom: 40px;
   font-size: 28px;
+  background-color: #ffffff;
+  background-size: 100px auto;
 }
 .collections .flex {
   display: flex;

@@ -53,3 +53,48 @@
     font-size: 20px;
     margin-bottom: 75px;
 }
+
+/* CARD princing */
+.card-princing .card__img {padding-top: 10%; position: relative;overflow: hidden;}
+.card-princing .card__desc {
+    position: relative; 
+    size: 24px;
+    background-color: rgb(15, 3, 3);
+    object-position: center;
+}
+.card-princing .desc__title {
+    font-size: 100px;
+    margin-bottom: 75px;
+    object-position: center;
+
+}
+
+/* CARD square */
+.card-square .card__img {padding-top: 10%; position: relative;overflow: hidden;}
+.card-square .card__desc {
+    position: relative; 
+    size: 24px;
+    background-color: rgb(15, 3, 3);
+    object-position: center;
+}
+.card-square .desc__title {
+    font-size: 100px;
+    margin-bottom: 75px;
+    object-position: center;
+
+}
+
+/* BLOG */
+.card-blog2 .card__img {padding-top: 10%; position: relative;overflow: hidden;}
+.card-blog2 .card__desc {
+    position: relative; 
+    size: 24px;
+    background-color: rgb(15, 3, 3);
+    object-position: center;
+}
+.card-blog2 .desc__title {
+    font-size: 100px;
+    margin-bottom: 75px;
+    object-position: center;
+
+}

@@ -41,3 +41,12 @@ a {color: inherit;}
   background-size: auto auto;
   padding: 20px 20px;
 }
+
+.footext {
+  background-size: auto auto;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  background-size: auto auto;
+  padding: 10px 10px;
+}

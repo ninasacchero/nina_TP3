@@ -77,35 +77,6 @@
     bottom: 0%;
     width: 100%;
     background-color: #252424;
-    font-family: 'Della Respira', serif;
     color:floralwhite;
-    font-size: 16px;
-    padding: 20px 30px;
-    text-decoration: none;
-    
+    padding: 20px 30px; 
 }
-.site-footer .nav {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    padding: 10px 0px;
-}
-
-.site-footer .nav li:not(:last-child) {
-    margin-right: 30px; 
-    margin-top: 0px; 
-    text-decoration: none;   
-}
-.site-footer .nav a {
-    text-decoration: none;
-    margin-top: 10px;
-}
-.site-footer .nav .button {
-    min-width: 0;
-    padding: 20px 60px;
-    margin-top: 10px;
-    position:center;
-}
-

@@ -1,21 +1,67 @@
 a {color: inherit;}
 
 .collections {
-  background-color: #F4F4F4;
+  background-color:floralwhite;
   padding: 50px 30px; 
 }
 
 .collections-title {
-  margin-bottom: 40px;
-  font-size: 28px;
-  background-color: #ffffff;
-  background-size: 100px auto;
+  margin-bottom: 60px;
+  font-size: 38px;
+  background-color:none;
+  text-align: center;
+  background-size: auto auto;
+  font-family: 'Courier New', Courier, monospace;
 }
 .collections .flex {
   display: flex;
-  padding: 40px 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 10px;
   justify-content: space-between;
 }
 .collections .flex .card-blog {
-  width: 20%;
+  width: 260px;
+  height: 400px;
+  padding: 10px 10px;
+}
+.collections .flex .card-blog2 {
+  width: 260px;
+  height: 400px;
+  padding: 10px 10px; 
+}
+.collections .flex .card-blog3 {
+  width: 260px;
+  height: 400px;
+  padding: 10px 10px; 
+}
+.collections .flex .card-blog4 {
+  width: 260px;
+  height: 400px;
+  padding: 10px 10px; 
+}
+.collections .flex .card-blog5 {
+  width: 260px;
+  height: 400px;
+  padding: 10px 10px; 
+}
+.collections .flex .card-blog6 {
+  width: 260px;
+  height: 400px;
+  padding: 10px 10px; 
+}
+.collections .flex .card-blog7 {
+  width: 260px;
+  height: 400px;
+  padding: 10px 10px; 
+}
+.collections .flex .card-blog8 {
+  width: 260px;
+  height: 400px;
+  padding: 10px 10px; 
+}
+.collections .flex .card-blog9 {
+  width: 260px;
+  height: 400px;
+  padding: 10px 10px; 
 }

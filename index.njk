@@ -3,18 +3,21 @@ layout: layouts/base.njk
 ---
 
 <div class='collections'>
-  <h1 class='collections-title'>Collections</h1>
-  
+  <h1 class='collections-title'>Work</h1>
   {% import "components/button.njk" as button %}
   {% import "components/card-blog.njk" as cardBlog %}
 
-  {{ button.show('plop') }}
-  {{ button.show('test') }}
-  {{ button.show('test 44') }}
- ​​​​​
-
   <div class='flex'>
-   {{ cardBlog.show('titre', 'See more') }}
+    {{ cardBlog.show('Dataviz', 'doc.jpg') }}
+    {{ cardBlog.show('UI/UX', 'NSI.png') }}
+    {{ cardBlog.show('Brand identity', '+') }}
+    {{ cardBlog.show('Advertising', '+') }}
+    {{ cardBlog.show('Illustation', '+') }}
+    {{ cardBlog.show('Photography', '+') }}
+    {{ cardBlog.show('Logoype', '+') }}
+    {{ cardBlog.show('Edition', '+') }}
+    {{ cardBlog.show('Poster', '+') }}
+    
   </div>
   
 </div>

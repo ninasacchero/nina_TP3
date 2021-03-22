@@ -1,100 +1,118 @@
 /* SITE HEADER */
 .site-header {
     display: flex;
+    background-color: #252424;
+    font-family: 'Courier New', Courier, monospace;
+    color:floralwhite;
     justify-content: space-between;
+    font-size: 16px;
     align-items: center;
     padding: 20px 30px;
 }
 .site-header .nav {
     display: flex;
     align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px;
 }
 
 .site-header .nav li:not(:last-child) {
-    margin-right: 32px;       
+    margin-right: 20px; 
+    margin-top: 10px; 
+    justify-content: center; 
+    align-items: center;  
 }
 
 .site-header .nav a {
     text-decoration: none;
-    white-space: nowrap;
+    margin-top: 10px;
 }
 
 .site-header .nav .button {
     min-width: 0;
-    padding: 8px 30px;
+    padding: 20px 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+    position:center;
 }
 
 /* BOUTON */
 .button {
-    background: #000000;
+    background: floralwhite;
     border-radius: 5px;
     padding: 20px 0;
-    color: #fff;
+    color: #252424;
     display: inline-block;
     text-decoration: none;
-    min-width: 200px;
+    min-width: 100px;
     text-align: center;
 }
 
 /* CARD BLOG */
-.card-blog .card__img {padding-top: 100%; position: relative;overflow: hidden;}
+/* .card-blog .card__img {padding-top: 100%; position: relative;overflow: hidden;} */
+
 .card-blog .card__img img {
-    position: absolute;    
-    top: 0 ; left: 0;
-    width: 100%; height: 100%;
-    object-fit: cover;
-    object-position: center;
+    max-width: 100%;
+    border-radius: 4px 4px 0px 0px;
+    
 }
 .card-blog .card__desc {
     padding: 24px;
-    background-color: #fff;
-}
-.card-blog .desc__title {
+    background-color:floralwhite;
+    text-align: center;
     font-size: 20px;
-    margin-bottom: 75px;
+    border: thick double #252424;
+    border-radius: 0px 0px 4px 4px;
+}   
+.card-blog .desc__title {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 25px;
+    
 }
 
-/* CARD princing */
-.card-princing .card__img {padding-top: 10%; position: relative;overflow: hidden;}
-.card-princing .card__desc {
-    position: relative; 
-    size: 24px;
-    background-color: rgb(15, 3, 3);
-    object-position: center;
-}
-.card-princing .desc__title {
-    font-size: 100px;
-    margin-bottom: 75px;
-    object-position: center;
 
-}
 
-/* CARD square */
-.card-square .card__img {padding-top: 10%; position: relative;overflow: hidden;}
-.card-square .card__desc {
-    position: relative; 
-    size: 24px;
-    background-color: rgb(15, 3, 3);
-    object-position: center;
+/* SITE FOOTER */
+.site-footer {
+    display: flex;
+    background-color: #252424;
+    font-family: 'Courier New', Courier, monospace;
+    color:floralwhite;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+    padding: 20px 30px;
 }
-.card-square .desc__title {
-    font-size: 100px;
-    margin-bottom: 75px;
-    object-position: center;
-
+.site-footer .nav {
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px;
 }
 
-/* BLOG */
-.card-blog2 .card__img {padding-top: 10%; position: relative;overflow: hidden;}
-.card-blog2 .card__desc {
-    position: relative; 
-    size: 24px;
-    background-color: rgb(15, 3, 3);
-    object-position: center;
+.site-footer .nav li:not(:last-child) {
+    margin-right: 30px; 
+    margin-top: 10px;      
 }
-.card-blog2 .desc__title {
-    font-size: 100px;
-    margin-bottom: 75px;
-    object-position: center;
 
+.site-footer .nav a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.site-footer .nav .button {
+    min-width: 0;
+    padding: 20px 80px;
+    margin-top: 10px;
+    margin-right: 20px;
+    position:center;
 }
